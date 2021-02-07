@@ -29,7 +29,7 @@ app.use(express.json());
 app.use(cors()) // For local web development
 
 // GET all users
-app.get('/', (req, res) => { res.send(database.users) })
+app.get('/', (req, res) => { res.send('working') })
 
 // Signin function in separate file, passing database and hashing (bcrypt) as well
 // POST not PUT because we want to send user credentials through body securely over https
