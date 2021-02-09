@@ -1,0 +1,29 @@
+.form {
+    width: 700px;
+    backdrop-filter: blur(4px);
+    border: 0.1em solid rgba(255, 255, 255, 0.192);
+    border-radius: 8px;
+}
+
+input {
+    border-color: rgba(255, 255, 255, 0.192);
+}
+
+.scan {
+    margin-left: 10px;
+    border-color: rgb(0, 128, 64);
+    color: rgb(0, 163, 82);
+    border-width: 2px;
+}
+
+.scan:hover{
+    background-color: white;
+    color: rgb(0, 58, 29);
+    border-color: white;
+}
+
+.searchbox {
+    background-color: rgba(255, 255, 255, 0.151);
+    border-width: 0px;
+    color: white;
+}
