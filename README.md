@@ -15,4 +15,4 @@ cors, pg and regular expression.
 Deployed everything, React front-end, NodeJS back-end and 
 PostgreSQL to Heroku for free. 
 
-This project was part of the zero to mastery course!
+This project was part of the Zero to mastery course!
